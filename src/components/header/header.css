@@ -1,4 +1,61 @@
 .header {
-    background: cyan;
-    padding: 24px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 400px;
+}
+.search {
+    display: flex;
+}
+input {
+    padding: 12px 12px;
+    width: 500px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border: 1px solid gray;
+}
+input:focus {
+    border: none;
+    outline: 2px solid rgb(23, 126, 221);
+}
+button {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    height: 41px;
+    width: 56px;
+    padding: 4px 16px;
+    outline: none;
+    border: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background: rgb(23, 126, 221);
+    color: #fff;
+}
+.right {
+    display: flex;
+}
+.right .sign {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.icons {
+    font-size: 28px;
+    margin-right: 8px;
+    color: rgb(23, 126, 221);;
+}
+p {
+    margin: 2px;
+}
+.right .sign .text .account {
+    display: flex;
+    align-items: center;
+}
+.right .sign .text .account p {
+    margin-right: 4px;
+}
+.right .cart {
+    display: flex;
+    align-items: center;
 }

@@ -8,9 +8,13 @@ const Footer = () => {
     return (
         <div className='footer'>
             <div className='left'>
-                <FaRegHeart />
-                <IoMdPerson />
-                <IoCart />
+                <p>Giới thiệu</p>
+            </div>
+            <div className='mid'>
+                <p>Hỗ trợ khách hàng</p>
+            </div>
+            <div className='left'>
+                <p>Chăm sóc khách hàng</p>
             </div>
         </div>
     );
